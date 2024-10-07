@@ -77,6 +77,57 @@ header .contact-icons img:hover{
     opacity: .8;
     transition: ease-in-out .3s;
 }
+/*Contact-icons du burgermenu*/
+header .contact-icons-burgermenu{
+    display: none;
+}
+/*Burger Menu*/
+.menu{
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+}
+
+.menu div{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    position: relative;
+    z-index: 5000;
+}
+
+.menu span{
+    background-color: #fff;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s, width 0.5s;
+}
+
+.menu .line-1{
+    transform: translate(-50%, -15px);
+}
+.menu .line-3{
+    transform: translate(-50%, 10px);
+}
+.openmenu .line-1{
+    transform: translate(-50%, 50%) rotate(-45deg);
+}
+.openmenu .line-3{
+    transform: translate(-50%, 50%) rotate(45deg);
+}
+.openmenu .line-2{
+    width: 0;
+}
+
 
 /* The main */ 
 main{
@@ -109,6 +160,7 @@ main{
     border-radius: 10px;
     object-fit: cover;
     transition: .5s ease-in-out;
+    z-index: 1;
 }
 .banner-aristide a:hover img{
     transform: scale(1.1);
@@ -243,4 +295,109 @@ footer .navbar ul .separateur{
 footer .navbar a:hover{
     color: #000;
     transition: .3s ease-in-out;
+}
+/*Les media querries*/
+
+@media (max-width: 1192px) {
+    /*Navbar*/
+    header .navbar{
+        position: absolute;
+        width: 100%;
+        height: 60vh;
+        background-color: #242423;
+        left: 0;
+        top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        overflow: hidden;
+        z-index: 100;
+    }
+    header .navbar ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    header .navbar ul li a{
+        font-size: 2rem;
+    }
+    header .navbar ul .separateur{
+        width: 100%;
+        height: 1px;
+        background-color: #4a4a4b;
+    }
+    /*Separateur entre liens et icones*/
+    header .navbar ul .separateur-burgermenu{
+        width: 100%;
+        height: 1px;
+        background-color: #4a4a4b;
+    }
+    /*Burger Menu*/
+    header .menu{
+        display: block;
+    }
+    header #menuList{
+        transition: all .3s;
+    }
+    /*Les icones*/
+
+    header .contact-icons-burgermenu{
+        display: block;
+        gap: 50px;
+        bottom: 0;
+    }
+    header .contact-icons-burgermenu img{
+        width: 40px;
+        height: 40px;
+        padding: 0 10px;
+    }
+    header .contact-icons{
+        display: none;
+    }
+    /*Section trois*/
+    .section-three h3{
+        font-size: 1.5rem;
+    }
+    .section-three .apercu-projets{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+/*Ecran de moins de 500px*/
+@media screen and (max-width: 500px){
+    /* The main */ 
+main{
+    margin: 0 1%;
+}
+    header .navbar{
+        height: 50vh;
+    }
+    .navbar ul li a{
+        font-size: 1.6rem;
+    }
+    /*First Section*/
+    .my-title h1{
+        font-size: 3.5rem;
+    }
+    .my-title p{
+        font-size: 1.2rem;
+    }
+    .my-title{
+        width: 70%;
+        margin: 20px 15%;
+    }
+    /* My banner*/
+.banner-aristide{
+    width: 97%;
+    }
+     /*Section3*/
+     .section-three .apercu-projets .contenu-1,
+     .section-three .apercu-projets .contenu-2,
+     .section-three .apercu-projets .contenu-3{
+         margin-right: 30px;
+         margin-left: 30px;
+     }
 }

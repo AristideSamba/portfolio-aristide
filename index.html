@@ -23,7 +23,7 @@
             </figcaption>
         </figure>
         <!--Navbar-->
-        <nav class="navbar">
+        <nav class="navbar" id="menuList">
             <ul>
                 <li><a href="#">A propos</a></li>
                 <div class="separateur"></div>
@@ -31,10 +31,26 @@
                 <div class="separateur"></div>
                 <li><a href="#">Projets</a></li>
                 <div class="separateur"></div>
-                <li><a href="#">Contacts</a></li>   
+                <li><a href="#">Contacts</a></li>
+                <div class="separateur-burgermenu"></div>   
             </ul>
             <!--Icone des contacts-->
+            <div class="contact-icons-burgermenu">
+                <a href="https://www.linkedin.com/in/romeo-aristide-samba-louzey2502" target="_blank">
+                    <img src="./asset/linkedin.png" alt="logo linkedin">
+                </a>
+                <a href="https://github.com/AristideSamba" target="_blank">
+                    <img src="./asset/github.png" alt="logo github">
+                </a>
+                <a href="https://www.facebook.com/romarissamba" target="_blank">
+                    <img src="./asset/facebook.png" alt="logo facbook">
+                </a>
+                <a href="https://www.facebook.com/romarissamba" target="_blank">
+                    <img src="./asset/logo-instagram.png" alt="Icone instagram">
+                </a>
+            </div>
         </nav>
+        <!--Icone des contacts-->
         <div class="contact-icons">
             <a href="https://www.linkedin.com/in/romeo-aristide-samba-louzey2502" target="_blank">
                 <img src="./asset/linkedin.png" alt="logo linkedin">
@@ -48,6 +64,14 @@
             <a href="https://www.facebook.com/romarissamba" target="_blank">
                 <img src="./asset/logo-instagram.png" alt="Icone instagram">
             </a>
+        </div>
+        <!-- Burger Menu -->
+        <div class="menu" id="menu" >
+            <div onclick="toggleMenu()">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
         </div>
     </header>
 
@@ -131,5 +155,6 @@
             </nav>
         </div>
     </footer>
+    <script src="./app.js"></script> 
 </body>
 </html>
