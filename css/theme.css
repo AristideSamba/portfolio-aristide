@@ -276,6 +276,7 @@ footer .navbar{
 }
 footer .navbar ul{
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 footer p{
@@ -321,7 +322,8 @@ footer .navbar a:hover{
         flex-direction: column;
     }
     header .navbar ul li a{
-        font-size: 2rem;
+        font-size: 1.5rem;
+        font-weight: 400;
     }
     header .navbar ul .separateur{
         width: 100%;
@@ -393,11 +395,26 @@ main{
 .banner-aristide{
     width: 97%;
     }
+    .banner-aristide img{
+        width: 100%;
+        height: 130px;
+    }
      /*Section3*/
      .section-three .apercu-projets .contenu-1,
      .section-three .apercu-projets .contenu-2,
      .section-three .apercu-projets .contenu-3{
          margin-right: 30px;
          margin-left: 30px;
+     }
+
+     /*Footer*/
+     footer .navbar ul a{
+        font-size: 1.5rem;
+     }
+     footer .navbar ul{
+        gap: 5px;
+     }
+     footer p{
+        font-size: 1.5rem;
      }
 }
