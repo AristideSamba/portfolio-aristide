@@ -4,7 +4,7 @@
     --header-bgcolor: #0a0a0a;
     --myblue-color: #4A48AA;
     --font-color: #fafafafa;
-    --hover-color: #939597;
+    --hover-color: #747272;;
     --footer-color: #F0EEE9;
 }
 
@@ -12,7 +12,7 @@
 header{
     position: relative;
     width: 100%;
-    height: 70px;
+    height: 90px;
     background-color: var(--header-bgcolor);
     display: flex;
     justify-content: space-between;
@@ -47,6 +47,7 @@ header .navbar ul{
     left: 40%;
 }
 header .navbar ul a{
+    font-family: "Montserrat", sans-serif;
     color: var(--font-color);
     font-size: 1.5;
     font-weight: 600;
@@ -139,11 +140,15 @@ main{
     margin: 15px 30%;
 }
 .my-title h1{
-    font-size: 4rem;
-    font-weight: 800;
+    font-family: 'Proxima Nova Bl', serif;
+    font-size: 6rem;
+    color: #3a3a3a;
 }
 .my-title p{
+    font-family: 'Proxima Nova Rg', serif;
+    font-weight: 400;
     color: var(--hover-color);
+    font-size: 1.7rem;
 }
 /* My banner*/
 .banner-aristide{

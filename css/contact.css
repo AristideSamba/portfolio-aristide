@@ -1,0 +1,26 @@
+@import url(./apropos.css);
+
+.icones{
+    width: 50%;
+    position: relative;
+    margin: 5%;
+    display: grid;
+    gap: 80px;
+}
+.icones a img{
+    width: 70px;
+    height: 70px;
+    transition: ease-in-out .4s;
+}
+.icones a img:nth-child(2){
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+.icones a:hover img:nth-child(2){
+    opacity: 1;
+    transition: ease-in-out .4s;
+}
+.icones span{
+    margin-left: 10px;
+}

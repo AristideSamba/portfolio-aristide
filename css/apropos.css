@@ -1,0 +1,43 @@
+@import url(./theme.css);
+
+header .menu-item.active {
+    color: var(--hover-color);
+}
+.first-section-mespages{
+    position: relative;
+    display: flex;
+    margin: 5%;
+    gap: 30px;
+}
+.first-section-mespages .description{
+    width: 40%;
+}
+.first-section-mespages h1{
+    font-family: 'Proxima Nova Cn Rg', serif;
+    font-size: 10rem;
+    color: #3a3a3a;
+}
+.first-section-mespages h2{
+    font-family: 'Proxima Nova Rg', serif;
+    font-weight: 400;
+    color: var(--hover-color);
+    margin-bottom: 10px;
+}
+.first-section-mespages p{
+    color: #2f2f30;
+}
+
+.first-section-mespages figcaption{
+    position: absolute;
+    right: 0;
+    width: 400px;
+}
+.first-section-mespages figcaption img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+/*Deuxi)me section*/
+.second-section-apropos{
+    margin: 5%;
+}
