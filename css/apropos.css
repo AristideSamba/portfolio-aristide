@@ -6,6 +6,7 @@ header .menu-item.active {
 .first-section-mespages{
     position: relative;
     display: flex;
+    justify-content: space-between;
     margin: 5%;
     gap: 30px;
 }
@@ -28,9 +29,8 @@ header .menu-item.active {
 }
 
 .first-section-mespages figcaption{
-    position: absolute;
-    right: 0;
     width: 400px;
+    height: 400px;
 }
 .first-section-mespages figcaption img{
     width: 100%;
@@ -40,4 +40,21 @@ header .menu-item.active {
 /*Deuxi)me section*/
 .second-section-apropos{
     margin: 5%;
+}
+/*Ecran de moins de 500px*/
+@media screen and (max-width: 500px){
+    .first-section-mespages{
+        flex-direction: column;
+    }
+
+    .first-section-mespages h1{
+        font-size: 6rem;
+    }
+    .first-section-mespages .description{
+        width: 90%;
+    }
+    .first-section-mespages figcaption{
+        width: 350px;
+
+    }
 }

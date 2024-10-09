@@ -5,7 +5,23 @@
     position: relative;
     margin: 5%;
     display: grid;
-    gap: 80px;
+    grid-template-columns: 15% 15%;
+    gap: 100px;
+}
+.fig-un,
+.fig-deux,
+.fig-trois,
+.fig-quatre{
+    position: relative;
+}
+.icones span{
+    position: absolute;
+    top: 40%;
+    transition: ease-in-out .4s;
+}
+.icones span:hover{
+    color: var(--hover-color);
+    transition: ease-in-out .4s;
 }
 .icones a img{
     width: 70px;
@@ -15,6 +31,7 @@
 .icones a img:nth-child(2){
     position: absolute;
     left: 0;
+    top: 0;
     opacity: 0;
 }
 .icones a:hover img:nth-child(2){
@@ -23,4 +40,14 @@
 }
 .icones span{
     margin-left: 10px;
+}
+/*Ecran de moins de 500px*/
+@media screen and (max-width: 500px){
+    .icones{
+        grid-template-columns: 40% 40%;
+    }
+    .icones a img:nth-child(2){
+        opacity: 1;
+    }
+   
 }
