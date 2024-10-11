@@ -5,7 +5,7 @@
     --myblue-color: #4A48AA;
     --font-color: #fafafafa;
     --hover-color: #747272;;
-    --footer-color: #F0EEE9;
+    --footer-color: #242423;
 }
 
 /* My Header */ 
@@ -178,14 +178,15 @@ main{
     left: 5%;
 }
 .banner .presentation h2{
-    color: var(--footer-color);
+    color: #FAFAFA;
     font-family: "Montserrat", serif;
     font-size: 3rem;
-    border: solid .2rem var(--footer-color);
-    padding: 0 30px;
+    padding: 0 20px;
+    background-color: #0db2aa;
+    border-radius: 5px;
 }
 .banner .presentation p{
-    color: var(--footer-color);
+    color: #FAFAFA;
     font-family: 'Proxima Nova Rg', serif;
     font-size: 2rem;
     text-align: center;
@@ -214,7 +215,7 @@ main{
 .section-three .apercu-projets .contenu-3{
     display: flex;
     flex-direction: column;
-    border: solid 1px var(--footer-color);
+    border: solid 1px #FAFAFA;
     justify-content: center;
     padding: 5px;
     border-radius: 5px;
@@ -269,6 +270,7 @@ footer figure{
    margin-bottom: -40px;
    box-shadow:0px 5px 0.5px rgba(0,0,0, 0.2)inset ;
 }
+/* Flèche vers le heut*/
 footer figure figcaption{
     position: absolute;
     top: 20%;
@@ -286,6 +288,7 @@ footer figure:hover{
     transform: scale(1.1);
     transition: .3s ease-in-out;
 }
+/* Texte du footer Aristide SAMBA*/
 footer .footer-contenu{
     background-color: var(--footer-color);
     width: 100%;
@@ -295,6 +298,7 @@ footer .footer-contenu{
     align-items: center;
     box-shadow: 3px 3px 7px rgba(0,0,0, 0.2)inset ;
 }
+/*Navbar du Footer*/
 footer .navbar{
     position: absolute;
     bottom: 10%;
@@ -319,7 +323,7 @@ footer .navbar ul .separateur{
     background-color: var(--hover-color);
 }
 footer .navbar a:hover{
-    color: #000;
+    color: #FAFAFA;
     transition: .3s ease-in-out;
 }
 /*Les media querries*/
@@ -422,10 +426,10 @@ main{
     }
     .banner-aristide img{
         width: 100%;
-        height: 130px;
+        height: 350px;
     }
     .banner .presentation h2{
-        font-size: 1.7rem;
+        font-size: 2rem;
         padding: 0 10px;
     }
     .banner .presentation p{

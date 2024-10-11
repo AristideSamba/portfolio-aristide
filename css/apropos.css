@@ -1,5 +1,5 @@
 @import url(./theme.css);
-
+/*Class active pour indiquer le dans lequel menu on se trouve*/
 header .menu-item.active {
     color: var(--hover-color);
 }
@@ -40,6 +40,11 @@ header .menu-item.active {
 /*Deuxi)me section*/
 .second-section-apropos{
     margin: 5%;
+}
+/*footer*/
+/*Class active pour indiquer le dans lequel menu on se trouve pour la navbar du footer*/
+footer .menu-item.active {
+    color: #FAFAFA;
 }
 /*Ecran de moins de 500px*/
 @media screen and (max-width: 500px){
