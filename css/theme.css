@@ -354,17 +354,7 @@ footer .navbar a:hover{
         font-size: 1.5rem;
         font-weight: 400;
     }
-    header .navbar ul .separateur{
-        width: 100%;
-        height: 1px;
-        background-color: #4a4a4b;
-    }
-    /*Separateur entre liens et icones*/
-    header .navbar ul .separateur-burgermenu{
-        width: 100%;
-        height: 1px;
-        background-color: #4a4a4b;
-    }
+    
     /*Burger Menu*/
     header .menu{
         display: block;
@@ -372,8 +362,14 @@ footer .navbar a:hover{
     header #menuList{
         transition: all .3s;
     }
+    /*Separateur de du burger menu*/
+    header .navbar ul .separateur,
+    header .navbar ul .last-separateur{
+        width: 100%;
+        height: 1px;
+        background-color: #4a4a4b;
+    }
     /*Les icones*/
-
     header .contact-icons-burgermenu{
         display: block;
         gap: 50px;
@@ -426,7 +422,7 @@ main{
     }
     .banner-aristide img{
         width: 100%;
-        height: 350px;
+        height: 150px;
     }
     .banner .presentation h2{
         font-size: 2rem;

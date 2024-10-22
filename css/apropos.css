@@ -3,6 +3,7 @@
 header .menu-item.active {
     color: var(--hover-color);
 }
+/* prmière section de mes pages */
 .first-section-mespages{
     position: relative;
     display: flex;
@@ -25,7 +26,9 @@ header .menu-item.active {
     margin-bottom: 10px;
 }
 .first-section-mespages p{
-    color: #2f2f30;
+    font-family: 'Proxima Nova Rg', serif;
+    font-size: 1.9rem;
+    color: var(--hover-color);
 }
 
 .first-section-mespages figcaption{
@@ -39,7 +42,11 @@ header .menu-item.active {
 }
 /*Deuxi)me section*/
 .second-section-apropos{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
     margin: 5%;
+    gap: 30px;
 }
 /*footer*/
 /*Class active pour indiquer le dans lequel menu on se trouve pour la navbar du footer*/
@@ -50,6 +57,7 @@ footer .menu-item.active {
 @media screen and (max-width: 500px){
     .first-section-mespages{
         flex-direction: column;
+        align-items: center;
     }
 
     .first-section-mespages h1{
@@ -59,7 +67,8 @@ footer .menu-item.active {
         width: 90%;
     }
     .first-section-mespages figcaption{
-        width: 350px;
-
+        width: 300px;
+        height: 300px;
+        display: flex;
     }
 }
