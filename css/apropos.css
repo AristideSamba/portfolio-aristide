@@ -76,7 +76,7 @@ header .menu-item.active {
 /*footer*/
 /*Class active pour indiquer le dans lequel menu on se trouve pour la navbar du footer*/
 footer .menu-item.active {
-    color: #FAFAFA;
+    color: #b2b2b2;
 }
 /*Ecran de moins de 500px*/
 @media screen and (max-width: 500px){
