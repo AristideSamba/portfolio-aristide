@@ -147,7 +147,7 @@ main{
 .my-title p{
     font-family: 'Proxima Nova Rg', serif;
     font-weight: 400;
-    color: var(--hover-color);
+    color: #3a3a3a;
     font-size: 1.7rem;
 }
 /* My banner*/
@@ -411,7 +411,7 @@ main{
         height: 50vh;
     }
     .navbar ul li a{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     /*First Section*/
     .my-title h1{
@@ -430,7 +430,7 @@ main{
     }
     .banner-aristide img{
         width: 100%;
-        height: 100px;
+        height: 110px;
     }
     .banner .presentation h2{
         font-size: 2rem;
