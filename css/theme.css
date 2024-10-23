@@ -161,16 +161,24 @@ main{
     border: none;
     margin-bottom: 40px;
 }
+/*Style et mouvement de la bannière*/
 .banner-aristide img{
     width: 100%;
     border-radius: 10px;
-    object-fit: cover;
-    transition: .5s ease-in-out;
-    z-index: 1;
+    background-image: url(../asset/banniere.png);
+    background-size: cover;
+    animation: pulse 10s infinite;
 }
-.banner-aristide a:hover img{
-    transform: scale(1.1);
-    transition: .5s ease-in-out;
+@keyframes pulse{
+    0%{
+        transform: translateX(0) scale(1);
+    }
+    50%{
+        transform: translateX(20px) scale(1.1);
+    }
+    100%{
+        transform: translateX(0) scale(1)
+    }
 }
 .banner .presentation{
     position: absolute;
@@ -267,8 +275,7 @@ footer figure{
    border-radius: 50%;
    transition: .3s ease-in-out; 
    z-index: 100;
-   margin-bottom: -40px;
-   box-shadow:0px 5px 0.5px rgba(0,0,0, 0.2)inset ;
+   margin-bottom: -55px;
 }
 /* Flèche vers le heut*/
 footer figure figcaption{
@@ -351,8 +358,8 @@ footer .navbar a:hover{
         flex-direction: column;
     }
     header .navbar ul li a{
-        font-size: 1.5rem;
-        font-weight: 400;
+        font-size: 1.8rem;
+        font-weight: 500;
     }
     
     /*Burger Menu*/

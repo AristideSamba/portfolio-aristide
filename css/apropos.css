@@ -8,7 +8,7 @@ header .menu-item.active {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: 5%;
+    margin: 3% 5%;
     gap: 30px;
 }
 .first-section-mespages .description{
@@ -28,7 +28,7 @@ header .menu-item.active {
 .first-section-mespages p{
     font-family: 'Proxima Nova Rg', serif;
     font-size: 1.9rem;
-    color: var(--hover-color);
+    color: #3a3a3a;
 }
 
 .first-section-mespages figcaption{
@@ -45,8 +45,33 @@ header .menu-item.active {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: 5%;
+    margin: 0 5%;
     gap: 30px;
+}
+.second-section-apropos figcaption{
+    width: 400px;
+}
+.second-section-apropos figcaption img{
+    width: 100%;
+    transform: rotate(-10deg);
+}
+.second-section-apropos .description-second-section{
+    margin: 6%;
+}
+.second-section-apropos h3{
+    font-family: 'Proxima Nova Rg', serif;
+    font-size: 2.5rem;
+    color: var(--hover-color);
+    margin-bottom: 10px;
+}
+.second-section-apropos p{
+    font-family: 'Proxima Nova Rg', serif;
+    font-size: 1.9rem;
+    color: #3a3a3a;
+}
+/* Image après le texte */
+.figure-mobile{
+    display: none;
 }
 /*footer*/
 /*Class active pour indiquer le dans lequel menu on se trouve pour la navbar du footer*/
@@ -65,10 +90,27 @@ footer .menu-item.active {
     }
     .first-section-mespages .description{
         width: 90%;
+        margin: 0;
     }
     .first-section-mespages figcaption{
         width: 300px;
         height: 300px;
         display: flex;
+    }
+    /*Deuxième section*/
+    .second-section-apropos{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .second-section-apropos figcaption{
+        width: 300px;
+    }
+    .figure-mobile{
+        display: block;
+    }
+    
+    .large-screen{
+        display: none;
     }
 }
