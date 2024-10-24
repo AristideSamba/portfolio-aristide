@@ -90,7 +90,7 @@ header .menu-item.active {
 .third-section-apropos figcaption img{
     width: 100%;
     border-radius: 30px;
-    transform: rotate(-10deg);
+    transform: rotate(10deg);
 }
 
 .third-section-apropos h3{
@@ -144,5 +144,11 @@ footer .menu-item.active {
     
     .large-screen{
         display: none;
+    }
+    /*Troisième section*/
+    .third-section-apropos{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
     }
 }
