@@ -178,11 +178,11 @@ header .contact-icons-burgermenu{
     align-items: center;
     justify-content: space-between;
     opacity: 0;
-    animation: fadeIn 12s ease-in-out forwards;
+    animation: fadeIn 14s ease-in-out forwards;
 }
 .my-title .bulles img{
     width: 50px;
-    animation: bulle 8s linear infinite;
+    animation: bulle 7s linear infinite;
 }
 /*Animation des bulles*/
 @keyframes fadeIn {
@@ -215,7 +215,7 @@ header .contact-icons-burgermenu{
     width: 30px;
 }
 .bulles img:nth-child(3){
-    animation-delay: 2s;
+    animation-delay: 3.5s;
 }
 .bulles img:nth-child(4){
     animation-delay: 4s;
@@ -226,7 +226,7 @@ header .contact-icons-burgermenu{
     width: 25px;
 }
 .bulles img:nth-child(6){
-    animation-delay: 6s;
+    animation-delay: 2s;
     width: 25px;
 }
 .bulles img:nth-child(7){
