@@ -454,6 +454,9 @@ footer .navbar a:hover{
         font-size: 1.5rem;
         width: 60%;
     }
+    .my-title .bulles{
+        bottom: 0px;
+    }
     
      /*Section3*/
      .section-two .apercu-projets .contenu-1,
