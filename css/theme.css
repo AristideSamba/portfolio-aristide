@@ -170,6 +170,18 @@ header .contact-icons-burgermenu{
     color: #FAFAFA;
     font-size: 1.7rem;
 }
+button{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    padding: 10px 25px;
+    color: #FAFAFA;
+    background: transparent;
+    border: 2px solid #FAFAFA;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
 .my-title .bulles{
     position: absolute;
     width: 100%;
@@ -195,7 +207,7 @@ header .contact-icons-burgermenu{
         transform: translateY(0);
         opacity: 0;
     }
-    30%{
+    50%{
         opacity: 1;
     }
     70%{
@@ -460,6 +472,9 @@ footer .navbar a:hover{
         top: 50%;
         font-size: 1.5rem;
         width: 60%;
+    }
+    button{
+        top: 65%;
     }
     .my-title .bulles{
         bottom: 0px;
