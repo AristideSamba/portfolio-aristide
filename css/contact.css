@@ -1,12 +1,11 @@
 @import url(./apropos.css);
 
 .icones{
-    width: 50%;
     position: relative;
     margin: 5%;
     display: grid;
-    grid-template-columns: 15% 15%;
-    gap: 100px;
+    grid-template-columns: 60% 60%;
+    grid-template-rows: 80%;
 }
 .fig-un,
 .fig-deux,
@@ -44,7 +43,14 @@
 /*Ecran de moins de 500px*/
 @media screen and (max-width: 500px){
     .icones{
-        grid-template-columns: 40% 40%;
+        grid-template-columns: 70% 70%;
+    }
+    .first-section-mespages {
+        width: 300px;
+    }
+    .icones a img{
+        width: 60px;
+        height: 60px;
     }
     .icones a img:nth-child(2){
         opacity: 1;

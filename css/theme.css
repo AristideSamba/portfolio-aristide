@@ -148,16 +148,16 @@ header .contact-icons-burgermenu{
     top: 35%;
     left: 10%;
     font-family: 'Proxima Nova Rg', serif;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: #FAFAFA;
-    letter-spacing: 1rem;
+    letter-spacing: 1.2rem;
 }
 .my-title h2{
     position: absolute;
     top: 40%;
     left: 10%;
     font-family: 'Proxima Nova Bl', serif;
-    font-size: 6rem;
+    font-size: 7rem;
     color: #FAFAFA;
 }
 .my-title p{
@@ -168,7 +168,7 @@ header .contact-icons-burgermenu{
     font-family: 'Proxima Nova Rg', serif;
     font-weight: 400;
     color: #FAFAFA;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 button{
     position: absolute;
