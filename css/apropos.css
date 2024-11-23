@@ -69,10 +69,6 @@ header .menu-item.active {
     font-size: 1.9rem;
     color: #3a3a3a;
 }
-/* Image après le texte */
-.figure-mobile{
-    display: none;
-}
 /*Troisième section*/
 .third-section-apropos{
     position: relative;
@@ -131,21 +127,20 @@ footer .menu-item.active {
         flex-direction: column;
         align-items: center;
         gap: 0;
+        margin-bottom: 50px;
     }
     .second-section-apropos figcaption{
         width: 220px;
     }
-    .figure-mobile{
-        display: block;
-    }
     
     .large-screen{
-        display: none;
+        order: 2;
     }
     /*Troisième section*/
     .third-section-apropos{
         flex-direction: column;
         align-items: center;
         gap: 0;
+        margin-bottom: 50px;
     }
 }
