@@ -52,7 +52,7 @@ header .menu-item.active {
 .first-section-mespages .box::before{
     content: '';
     position: absolute;
-    inset: -10px 140px;
+    inset: -10px 130px;
     background: linear-gradient(315deg, #FF4D6B, #299DF2);
     transition: 0.5s;
     animation: animate 5s linear infinite;
@@ -225,6 +225,9 @@ footer .menu-item.active {
     .first-section-mespages .box{
         width: 300px;
         height: 300px;
+    }
+    .first-section-mespages .box::before{
+        inset: -10px 90px;
     }
     /*Deuxième section*/
     .second-section-apropos{
