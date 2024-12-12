@@ -29,6 +29,7 @@ header .menu-item.active {
     font-family: 'Proxima Nova Rg', serif;
     font-size: 1.9rem;
     color: #3a3a3a;
+    text-align: justify;
 }
 
 .first-section-mespages figcaption{
@@ -44,18 +45,18 @@ header .menu-item.active {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: 5%;
+    margin: 5% auto;
     gap: 40px;
+    width: 80%;
 }
 .second-section-apropos figcaption{
-    width: 250px;
+    width: 300px;
     margin-top: 30px;
     margin-right: 30px;
 }
 .second-section-apropos figcaption img{
     width: 100%;
-    border-radius: 30px;
-    transform: rotate(-10deg);
+    border-radius: 10px;
 }
 
 .second-section-apropos h3{
@@ -68,24 +69,25 @@ header .menu-item.active {
     font-family: 'Proxima Nova Rg', serif;
     font-size: 1.9rem;
     color: #3a3a3a;
+    text-align: justify;
 }
 /*Troisième section*/
 .third-section-apropos{
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: 5%;
+    margin: 5% auto;
     gap: 40px;
+    width: 80%;
 }
 .third-section-apropos figcaption{
-    width: 250px;
+    width: 300px;
     margin-top: 30px;
     margin-right: 30px;
 }
 .third-section-apropos figcaption img{
     width: 100%;
-    border-radius: 30px;
-    transform: rotate(10deg);
+    border-radius: 10px;
 }
 
 .third-section-apropos h3{
@@ -98,6 +100,7 @@ header .menu-item.active {
     font-family: 'Proxima Nova Rg', serif;
     font-size: 1.9rem;
     color: #3a3a3a;
+    text-align: justify;
 }
 
 /*footer*/
@@ -119,6 +122,7 @@ footer .menu-item.active {
         width: 90%;
         margin: 0;
     }
+    
     .first-section-mespages figcaption{
         width: 300px;
     }
@@ -130,7 +134,8 @@ footer .menu-item.active {
         margin-bottom: 50px;
     }
     .second-section-apropos figcaption{
-        width: 220px;
+        width: 300px;
+        margin: 10px auto;
     }
     
     .large-screen{
@@ -142,5 +147,9 @@ footer .menu-item.active {
         align-items: center;
         gap: 0;
         margin-bottom: 50px;
+    }
+    .third-section-apropos figcaption{
+        width: 300px;
+        margin: 10px auto;
     }
 }
