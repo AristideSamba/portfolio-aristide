@@ -5,11 +5,11 @@ header .menu-item.active {
 }
 /* prmière section de mes pages */
 .first-section-mespages{
+    width: 80%;
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: 3% 5%;
-    gap: 30px;
+    margin: 3% auto;
 }
 .first-section-mespages .description{
     width: 40%;
@@ -113,6 +113,7 @@ footer .menu-item.active {
     .first-section-mespages{
         flex-direction: column;
         align-items: center;
+        width: 90%;
     }
 
     .first-section-mespages h1{
