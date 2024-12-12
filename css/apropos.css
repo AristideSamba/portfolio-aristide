@@ -40,18 +40,111 @@ header .menu-item.active {
     height: 100%;
     border-radius: 20px;
 }
+/*Box contenant l'image et animation*/
+.first-section-mespages .box{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: #E5F1FF;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.first-section-mespages .box::before{
+    content: '';
+    position: absolute;
+    inset: -10px 140px;
+    background: linear-gradient(315deg, #FF4D6B, #299DF2);
+    transition: 0.5s;
+    animation: animate 5s linear infinite;
+}
+.first-section-mespages .box:hover::before{
+    inset: -20px 0px;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.first-section-mespages .box::after{
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: #000254;
+    border-radius: 50%;
+    z-index: 1;
+}
+.first-section-mespages .box .content{
+    position: absolute;
+    inset: 30px;
+    border: 1px solid #070a1c;
+    z-index: 3;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first-section-mespages .box .content h2{
+    font-family: 'Proxima Nova Rg', serif;
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+.first-section-mespages .box .content h2 span{
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+.first-section-mespages .box .content a{
+    position: relative;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #070a1c;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: .8rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.first-section-mespages .box .content a:hover{
+    letter-spacing: 1.4rem;
+}
+.first-section-mespages .box .content img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 3;
+}
+.first-section-mespages .box:hover .content img{
+    opacity: 0;
+}
 /*Deuxi)me section*/
 .second-section-apropos{
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: 5% auto;
+    align-items: center;
+    margin: 2% auto;
     gap: 40px;
     width: 80%;
 }
 .second-section-apropos figcaption{
-    width: 300px;
-    margin-top: 30px;
+    width: 500px;
     margin-right: 30px;
 }
 .second-section-apropos figcaption img{
@@ -76,12 +169,13 @@ header .menu-item.active {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: 5% auto;
+    align-items: center;
+    margin: 2% auto;
     gap: 40px;
     width: 80%;
 }
 .third-section-apropos figcaption{
-    width: 300px;
+    width: 500px;
     margin-top: 30px;
     margin-right: 30px;
 }
@@ -126,6 +220,11 @@ footer .menu-item.active {
     
     .first-section-mespages figcaption{
         width: 300px;
+    }
+    /*Box contenant l'image et animation*/
+    .first-section-mespages .box{
+        width: 300px;
+        height: 300px;
     }
     /*Deuxième section*/
     .second-section-apropos{
