@@ -1,1 +1,40 @@
 @import url(./apropos.css);
+
+/* section Compétences */
+
+.second-section{
+  width: 80%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% auto;
+}
+
+.second-section h2{
+  font-family: 'Proxima Nova Rg', serif;
+  font-size: 2.5rem;
+  color: var(--hover-color);
+  margin-bottom: 10px;
+}
+.second-section p{
+  font-family: 'Proxima Nova Rg', serif;
+  font-size: 1.9rem;
+  color: #3a3a3a;
+  text-align: justify;
+}
+.div-container{
+  width: 100%;
+  height: 60%;
+  margin-left: 20%;
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 500px){
+  .second-section{
+    flex-direction: column;
+  }
+  .div-container{
+    width: 80%;
+    height: 80%;
+  }
+}

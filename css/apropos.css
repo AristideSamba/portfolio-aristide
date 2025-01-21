@@ -225,6 +225,7 @@ footer .menu-item.active {
     .first-section-mespages .box{
         width: 300px;
         height: 300px;
+				
     }
     .first-section-mespages .box::before{
         inset: -10px 90px;

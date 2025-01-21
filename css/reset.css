@@ -21,7 +21,6 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100svh;
-    background-color: #F5F5F5;
 }
 
 ol, ul {
