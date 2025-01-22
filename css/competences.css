@@ -1,40 +1,90 @@
 @import url(./apropos.css);
 
+
 /* section Compétences */
 
 .second-section{
-  width: 80%;
+  width: 100%;
+  height: 500px;
+  margin-top: 40px;
+  margin-bottom: 800px;
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  margin: 5% auto;
+  background-image: linear-gradient(to bottom, #DEE7E9, #AEB3B4);
+}
+
+.second-section .description{
+  margin: auto 20%;
+  padding-top: 35px;
 }
 
 .second-section h2{
-  font-family: 'Proxima Nova Rg', serif;
-  font-size: 2.5rem;
-  color: var(--hover-color);
-  margin-bottom: 10px;
+  font-family: 'Proxima Nova Cn Rg', serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #001166;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .second-section p{
-  font-family: 'Proxima Nova Rg', serif;
-  font-size: 1.9rem;
-  color: #3a3a3a;
-  text-align: justify;
+  font-family: 'Proxima Nova Cn Rg', serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #001166;
+  text-align: center;
 }
-.div-container{
-  width: 100%;
-  height: 60%;
-  margin-left: 20%;
-  margin-left: 20%;
+.second-section .languages{
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  height: 900px;
+  margin: auto;
+  justify-items: center;
+  border-radius: 20px;
+  border: solid 1px #E6ECF8;
+}
+
+.second-section .contenu-lang{
+  width: 80%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-section .contenu-lang p{
+  padding-top: 30px;
+  color: #000;
+}
+.second-section .languages figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.second-section .languages figure img{
+  width: 80px;
+}
+.second-section .languages figure figcaption{
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.second-section .languages h3{
+  padding-top: 40px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--myblue-color);
+}
+.second-section .languages p{
+  font-family: 'Proxima Nova Rg', serif;
+  font-size: 1.8rem;
+  font-weight: 200;
 }
 
 @media screen and (max-width: 500px){
-  .second-section{
-    flex-direction: column;
-  }
-  .div-container{
-    width: 80%;
-    height: 80%;
-  }
+  
 }

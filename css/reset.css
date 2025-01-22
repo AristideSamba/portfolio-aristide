@@ -18,9 +18,13 @@ body {
     font: 1.6rem "Poppins", sans-serif;
     line-height: 1.6;
     margin: 0;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
 }
 
 ol, ul {
