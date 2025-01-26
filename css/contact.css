@@ -7,44 +7,49 @@
     grid-template-columns: 60% 60%;
     grid-template-rows: 80%;
 }
-.fig-un,
-.fig-deux,
-.fig-trois,
-.fig-quatre{
-    position: relative;
-    background-color: red;
+.icones figure a{
+    display: flex;
+    align-items: center;
+    transition: .4s ease-in-out;
 }
-.icones span{
-    position: absolute;
-    top: 40%;
-    transition: ease-in-out .4s;
+
+.icones figure:hover{
+    opacity: .8;
+    transition: .4s ease-in-out;
 }
-.icones span:hover{
-    color: var(--hover-color);
-    transition: ease-in-out .4s;
+.icones figure a img:hover{
+    transform: scale(1.1);
+}
+
+.icones figure a span{
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.icones figure a .linkedin{
+    color: #4875B4;
+}
+.icones figure a .facebook{
+    color: #1877F2;
+}
+.icones figure a .mail{
+    color: #0DAEFF;
+}
+.icones figure a .instagram{
+    color: #BA2B5F;
 }
 .icones a img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     transition: ease-in-out .4s;
 }
-.icones a img:nth-child(2){
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-}
-.icones a:hover img:nth-child(2){
-    opacity: 1;
-    transition: ease-in-out .4s;
-}
-.icones span{
-    margin-left: 10px;
-}
+
+
 /*Ecran de moins de 500px*/
 @media screen and (max-width: 500px){
     .icones{
-        grid-template-columns: 60% 60%;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 80px;
     }
     .first-section-mespages {
         width: 100%;
@@ -53,8 +58,6 @@
         width: 50px;
         height: 50px;
     }
-    .icones a img:nth-child(2){
-        opacity: 1;
-    }
+    
    
 }
