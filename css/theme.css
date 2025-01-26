@@ -150,8 +150,8 @@ header .contact-icons-burgermenu{
     left: 50%;
     font-family: 'Proxima Nova Rg', serif;
     font-size: 2.2rem;
-    font-weight: 800;
-    color: #3a3a3a;
+    font-weight: 900;
+    color: var(--header-bgcolor);
     letter-spacing: 1.2rem;
 }
 .my-title h2{
@@ -160,7 +160,7 @@ header .contact-icons-burgermenu{
     left: 50%;
     font-family: 'Proxima Nova Bl', serif;
     font-size: 7rem;
-    color: #3a3a3a;
+    color: var(--header-bgcolor);
 }
 .my-title p{
     position: absolute;
@@ -168,8 +168,8 @@ header .contact-icons-burgermenu{
     top: 60%;
     left: 50%;
     font-family: 'Proxima Nova Rg', serif;
-    font-weight: 400;
-    color: #3a3a3a;
+    font-weight: 500;
+    color: var(--header-bgcolor);
     font-size: 1.8rem;
 }
 button{
@@ -177,12 +177,13 @@ button{
     top: 80%;
     left: 50%;
     padding: 10px 25px;
-    color: #3a3a3a;
+    color: var(--header-bgcolor);
     background: transparent;
-    border: 2px solid #3a3a3a;
+    border: 3px solid #3a3a3a;
     border-radius: 20px;
     outline: none;
     cursor: pointer;
+    font-weight: 500;
 }
 .my-title .bulles{
     position: absolute;
@@ -462,48 +463,71 @@ footer .navbar a:hover{
     }
     /*First Section*/
     .my-title{
-        height: 95vh;
+        height: 50vh;
     }
+    
     .my-title h1{
         font-size: 1.5rem;
         top: 20% ;
-        left: 6%;
+        left: 25%;
     }
     .my-title h2{
         top: 25% ;
         font-size: 4rem;
-        left: 6%;
+        left: 25%;
     }
     .my-title p{
         top: 35%;
-        left: 6%;
+        left: 25%;
         font-size: 1.5rem;
         width: 60%;
     }
     button{
         top: 50%;
-        left: 5%;
+        left: 25%;
     }
     .my-title .bulles{
-        bottom: 0px;
+        bottom: 300px;
     }
-    
-     /*Section3*/
-     .section-two .apercu-projets .contenu-1,
-     .section-two .apercu-projets .contenu-2,
-     .section-two .apercu-projets .contenu-3{
-         margin-right: 30px;
-         margin-left: 30px;
-     }
+    /*Animation des bulles*/
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+@keyframes bulle {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-55vh);
+        opacity: 0;
+    }
+       
+}
+ /*Section3*/
+ .section-two .apercu-projets .contenu-1,
+ .section-two .apercu-projets .contenu-2,
+ .section-two .apercu-projets .contenu-3{
+     margin-right: 30px;
+     margin-left: 30px;
+ }
 
-     /*Footer*/
-     footer .navbar ul a{
-        font-size: 1.5rem;
-     }
-     footer .navbar ul{
-        gap: 5px;
-     }
-     footer p{
-        font-size: 1.5rem;
-     }
+ /*Footer*/
+ footer .navbar ul a{
+    font-size: 1.5rem;
+ }
+ footer .navbar ul{
+    gap: 5px;
+ }
+ footer p{
+    font-size: 1.5rem;
+ }
 }
