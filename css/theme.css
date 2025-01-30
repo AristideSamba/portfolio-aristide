@@ -302,12 +302,51 @@ button{
     color: var(--header-bgcolor);
     margin-left: 5%;
 }
-.section-three .apercu-projets .contenu-1 p,
-.section-three .apercu-projets .contenu-2 p,
-.section-three .apercu-projets .contenu-3 p{
+.section-two .apercu-projets .contenu-1 p,
+.section-two .apercu-projets .contenu-2 p,
+.section-two .apercu-projets .contenu-3 p{
     color: #939597;
     font-size: 1.3rem;
     margin-left: 5%;
+}
+/*Pop-up Github*/
+.section-two button{
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 1px var(--header-bgcolor);
+}
+
+.section-two button img{
+    width: 50px;
+}
+.hidden {
+    display: none;
+}
+#popup p{
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.section-two #popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1E1F20;
+    border: #DCDCDC solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.section-two .close {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    font-size: 3rem;
+    color: var(--white-color);
 }
 /*footer*/
 footer{
