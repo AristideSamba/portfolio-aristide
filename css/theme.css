@@ -174,7 +174,7 @@ header .contact-icons-burgermenu{
 }
 button{
     position: absolute;
-    top: 72%;
+    top: 65%;
     left: 50%;
     padding: 10px 25px;
     color: var(--header-bgcolor);
@@ -183,12 +183,19 @@ button{
     border-radius: 20px;
     outline: none;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 1.7rem;
+    transition: .3s ease-in-out;
+}
+button:hover{
+    color:var(--hover-color);
+    border: 2px solid var(--hover-color);
+    transition: .3s ease-in-out;
 }
 /*Pop-up Github*/
 .my-title #myButton{
     position: absolute;
-    top: 82%;
+    top: 75%;
     left: 50%;
     padding: 10px;
     cursor: pointer;
@@ -517,24 +524,24 @@ footer .navbar a:hover{
     .my-title h1{
         font-size: 1.7rem;
         top: 20% ;
-        left: 18%;
+        left: 48%;
     }
     .my-title h2{
-        top: 25% ;
-        font-size: 4.2rem;
-        left: 18%;
+        top: 28% ;
+        font-size: 2.7rem;
+        left: 48%;
     }
     .my-title p{
         display: none;
     }
     button{
-        top: 35%;
-        left: 18%;
+        top: 34%;
+        left: 48%;
     }
     /*Pop-up Github*/
     .my-title #myButton{
         top: 40%;
-        left: 20%;
+        left: 48%;
     }
     #popup p{
         font-size: 1rem;
