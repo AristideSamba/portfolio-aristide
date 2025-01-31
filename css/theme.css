@@ -149,7 +149,7 @@ header .contact-icons-burgermenu{
     top: 28%;
     left: 50%;
     font-family: 'Proxima Nova Rg', serif;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 900;
     color: var(--header-bgcolor);
     letter-spacing: 1.2rem;
@@ -300,14 +300,13 @@ button{
 /* Deuxième section */
 .section-two{
     text-align: center;
-    font-family: "Unica77-LL-TT", Helvetica, Arial, sans-serif;
     color: var(--hover-color);
     margin: 50px 0;
 }
 .section-two h3{
     text-align: center;
     margin-bottom: 20px;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 2.6rem;
 
 }
@@ -348,16 +347,14 @@ button{
 .section-two .apercu-projets .contenu-3 h4{
     font-size: 1.6rem;
     color: var(--header-bgcolor);
-    font-weight: 100;
-    font-family: 'Proxima Nova Rg', serif;
+    font-weight: 400;
 }
 .section-two .apercu-projets .contenu-1 p,
 .section-two .apercu-projets .contenu-2 p,
 .section-two .apercu-projets .contenu-3 p{
     color: #939597;
     font-size: 1.6rem;
-    font-weight: 100;
-    font-family: 'Proxima Nova Rg', serif;
+    font-weight: 400;
 }
 
 /*footer*/
