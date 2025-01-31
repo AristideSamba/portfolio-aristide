@@ -523,25 +523,26 @@ footer .navbar a:hover{
     
     .my-title h1{
         font-size: 1.7rem;
-        top: 20% ;
-        left: 48%;
+        top: 18% ;
+        left: 45%;
     }
     .my-title h2{
-        top: 28% ;
-        font-size: 2.7rem;
-        left: 48%;
+        top: 24% ;
+        font-size: 2.5rem;
+        left: 45%;
     }
     .my-title p{
         display: none;
     }
     button{
-        top: 34%;
-        left: 48%;
+        top: 32%;
+        left: 45%;
+        font-size: 1.4rem;
     }
     /*Pop-up Github*/
     .my-title #myButton{
-        top: 40%;
-        left: 48%;
+        top: 39%;
+        left: 45%;
     }
     #popup p{
         font-size: 1rem;
@@ -552,6 +553,9 @@ footer .navbar a:hover{
     }
     .my-title .bulles{
         display: none;
+    }
+    .my-title #myButton img{
+        width: 30px;
     }
     /*Animation des bulles*/
 @keyframes fadeIn {
