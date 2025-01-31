@@ -142,11 +142,11 @@ header .contact-icons-burgermenu{
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
-    box-shadow: 0px 7px 6px rgba(0,0,0, 0.5), 3px 3px 5px rgba(0,0,0, 0.2)inset ;
+    box-shadow: 0px 4px 4px rgba(140, 139, 139, 0.5), 3px 3px 5px rgba(0,0,0, 0.2)inset ;
 }
 .my-title h1{
     position: absolute;
-    top: 35%;
+    top: 28%;
     left: 50%;
     font-family: 'Proxima Nova Rg', serif;
     font-size: 2.2rem;
@@ -156,7 +156,7 @@ header .contact-icons-burgermenu{
 }
 .my-title h2{
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     font-family: 'Proxima Nova Bl', serif;
     font-size: 7rem;
@@ -165,7 +165,7 @@ header .contact-icons-burgermenu{
 .my-title p{
     position: absolute;
     width: 30%;
-    top: 60%;
+    top: 52%;
     left: 50%;
     font-family: 'Proxima Nova Rg', serif;
     font-weight: 500;
@@ -174,16 +174,63 @@ header .contact-icons-burgermenu{
 }
 button{
     position: absolute;
-    top: 80%;
+    top: 72%;
     left: 50%;
     padding: 10px 25px;
     color: var(--header-bgcolor);
     background: transparent;
-    border: 3px solid #3a3a3a;
+    border: 2px solid #3a3a3a;
     border-radius: 20px;
     outline: none;
     cursor: pointer;
     font-weight: 500;
+}
+/*Pop-up Github*/
+.my-title #myButton{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #3a3a3a;
+    border-radius: 50px;
+}
+
+.my-title #myButton img{
+    width: 40px;
+    transition: .3s ease-in-out;
+}
+.my-title #myButton img:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+.hidden {
+    display: none;
+}
+#popup p{
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: var(--white-color);
+}
+
+#popup {
+    width: 25%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1E1F20;
+    border-radius: 10px;
+    padding: 20px;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    font-size: 3rem;
+    color: var(--white-color);
 }
 .my-title .bulles{
     position: absolute;
@@ -260,6 +307,8 @@ button{
 .section-two h3{
     text-align: center;
     margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 2.6rem;
 
 }
 .section-two .apercu-projets{
@@ -297,57 +346,20 @@ button{
 .section-two .apercu-projets .contenu-1 h4,
 .section-two .apercu-projets .contenu-2 h4,
 .section-two .apercu-projets .contenu-3 h4{
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.6rem;
     color: var(--header-bgcolor);
-    margin-left: 5%;
+    font-weight: 100;
+    font-family: 'Proxima Nova Rg', serif;
 }
 .section-two .apercu-projets .contenu-1 p,
 .section-two .apercu-projets .contenu-2 p,
 .section-two .apercu-projets .contenu-3 p{
     color: #939597;
-    font-size: 1.3rem;
-    margin-left: 5%;
-}
-/*Pop-up Github*/
-.section-two button{
-    padding: 10px 50px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: solid 1px var(--header-bgcolor);
+    font-size: 1.6rem;
+    font-weight: 100;
+    font-family: 'Proxima Nova Rg', serif;
 }
 
-.section-two button img{
-    width: 50px;
-}
-.hidden {
-    display: none;
-}
-#popup p{
-    font-size: 2.6rem;
-    font-weight: 600;
-    color: var(--white-color);
-}
-
-.section-two #popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #1E1F20;
-    border: #DCDCDC solid 1px;
-    border-radius: 10px;
-    padding: 20px;
-}
-.section-two .close {
-    position: absolute;
-    top: 0;
-    right: 2%;
-    cursor: pointer;
-    border-bottom-left-radius: 10px;
-    font-size: 3rem;
-    color: var(--white-color);
-}
 /*footer*/
 footer{
     position: relative;
@@ -502,31 +514,40 @@ footer .navbar a:hover{
     }
     /*First Section*/
     .my-title{
-        height: 70vh;
+        height: 40vh;
     }
     
     .my-title h1{
-        font-size: 1.5rem;
-        top: 15% ;
-        left: 20%;
+        font-size: 1.7rem;
+        top: 20% ;
+        left: 18%;
     }
     .my-title h2{
-        top: 20% ;
-        font-size: 4rem;
-        left: 20%;
+        top: 25% ;
+        font-size: 4.2rem;
+        left: 18%;
     }
     .my-title p{
-        top: 30%;
-        left: 20%;
-        font-size: 1.5rem;
-        width: 60%;
+        display: none;
     }
     button{
-        top: 45%;
+        top: 35%;
+        left: 18%;
+    }
+    /*Pop-up Github*/
+    .my-title #myButton{
+        top: 40%;
         left: 20%;
     }
+    #popup p{
+        font-size: 1rem;
+    }
+    
+    #popup {
+        width: 60%;
+    }
     .my-title .bulles{
-        bottom: 100px;
+        display: none;
     }
     /*Animation des bulles*/
 @keyframes fadeIn {
