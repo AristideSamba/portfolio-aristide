@@ -215,14 +215,17 @@ footer .menu-item.active {
     .first-section-mespages{
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 95%;
+        margin-bottom: 50px;
+        padding-bottom: 10px;
+        height: 50%;
     }
 
     .first-section-mespages h1{
         font-size: 6rem;
     }
     .first-section-mespages .description{
-        width: 90%;
+        width: 95%;
         margin: 0;
     }
     
