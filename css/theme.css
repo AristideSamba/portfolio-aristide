@@ -253,16 +253,6 @@ button:hover{
     width: 50px;
     animation: bulle 7s linear infinite;
 }
-/*apparition des éléments*/
-.reveal{
-    opacity: 0;
-    transform: translateY(-50px);
-}
-.reveal-visible{
-    opacity: 1;
-    transform: translateY(0);
-    transition: 1.5s;
-}
 /*Animation des bulles*/
 @keyframes fadeIn {
     to {
