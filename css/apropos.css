@@ -45,6 +45,14 @@ header .menu-item.active {
     height: 100%;
     border-radius: 20px;
 }
+/*Icone pointeur*/
+.icone-pointeur{
+    position: absolute;
+    top: 35%;
+    left: 62%;
+    width: 50px;
+    height: 50px;
+}
 /*Box contenant l'image et animation*/
 .first-section-mespages .box{
     position: relative;
@@ -232,6 +240,11 @@ footer .menu-item.active {
     .first-section-mespages figcaption{
         width: 300px;
     }
+    /*Icone pointeur*/
+.icone-pointeur{
+    top: 65%;
+    left: 1%;
+}
     /*Box contenant l'image et animation*/
     .first-section-mespages .box{
         width: 300px;
