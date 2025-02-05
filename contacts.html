@@ -11,10 +11,11 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="./css/contact.css">
     <link href="./asset/package/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Header de ma page -->
-    <header id="retour-haut">
+    <header id="retour-haut" class="link" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="100">
         <figure class="logo">
             <figcaption>
                 <a href="./index.html">
@@ -74,9 +75,9 @@
         <!-- Première section A propos -->
     <section class="first-section-mespages">
         <div class="description">
-            <h1>Contacts</h1>
-            <h2>Contactez moi via mes différents réseaux sociaux ou par email.</h2>
-            <div class="icones">
+            <h1 class="link" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">Contacts</h1>
+            <h2 class="link" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">Contactez moi via mes différents réseaux sociaux ou par email.</h2>
+            <div class="icones" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
                 <figure>
                     <a href="https://www.linkedin.com/in/romeo-aristide-samba-louzey2502" target="_blank">
                         <img src="./asset/linkedin-contact-couleur.png" alt="logo linkedin">
@@ -103,7 +104,7 @@
                 </figure>
             </div>
         </div>
-        <figure>
+        <figure class="link" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400">
             <figcaption>
                 <img src="./asset/contact.jpg" alt="">
             </figcaption>
@@ -137,5 +138,8 @@
         </div>
     </footer>
     <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./animation.js"></script>
+    <script src="./initialisation.js"></script>
 </body>
 </html>

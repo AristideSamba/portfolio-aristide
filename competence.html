@@ -11,10 +11,11 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="./css/competences.css">
     <link href="./asset/package/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
    <!-- Header de ma page -->
-   <header id="retour-haut">
+   <header id="retour-haut" class="link" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="100">
     <figure class="logo">
         <figcaption>
             <a href="./index.html">
@@ -74,11 +75,11 @@
         <!-- Première section A propos -->
         <section class="first-section-mespages">
             <div class="description">
-                <h1>Compétences</h1>
+                <h1 class="link" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">Compétences</h1>
                 <h2></h2>
-                <p>Au cours de ma formation, j'ai eu l'occasion de développer mes connaisances dans les différents languages de programmation et des outils de développements.</p>
+                <p class="link" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">Au cours de ma formation, j'ai eu l'occasion de développer mes connaisances dans les différents languages de programmation et des outils de développements.</p>
             </div>
-            <figure>
+            <figure class="link" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400">
                 <figcaption>
                     <img src="./asset/competences.jpg" alt="">
                 </figcaption>
@@ -143,5 +144,8 @@
             </div>
         </footer>
     <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./animation.js"></script>
+    <script src="./initialisation.js"></script>
 </body>
 </html>

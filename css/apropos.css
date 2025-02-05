@@ -1,5 +1,8 @@
 @import url(./theme.css);
 /*Class active pour indiquer le dans lequel menu on se trouve*/
+body {
+    background-color: #ffff;
+}
 header .menu-item.active {
     color: var(--hover-color);
 }

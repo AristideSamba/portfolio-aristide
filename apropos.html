@@ -14,7 +14,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header id="retour-haut">
+    <header id="retour-haut" class="link" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="100">
         <figure class="logo">
             <figcaption>
                 <a href="./index.html">
@@ -73,12 +73,12 @@
         <!-- Première section A propos -->
         <section class="first-section-mespages">
             <div class="description">
-                <h1>A propos</h1>
-                <h2>Je suis développeur web full stack en BTS2 SLAM à <a href="https://www.iticparis.com/" target="_blank">ITIC Paris</a></h2>
-                <p>Depuis maintenant quelques année je suis passioné par le développement web. Je suis plus attiré par le coté Design du développement mais je consacre également une grande part de ma formation au coté back.</p>
+                <h1 class="link" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">A propos</h1>
+                <h2 class="link" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">Je suis développeur web full stack en BTS2 SLAM à <a href="https://www.iticparis.com/" target="_blank">ITIC Paris</a></h2>
+                <p class="link" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">Depuis maintenant quelques année je suis passioné par le développement web. Je suis plus attiré par le coté Design du développement mais je consacre également une grande part de ma formation au coté back.</p>
             </div>
-            <img src="./asset/pointant-vers-la-droite.png" alt="" class="icone-pointeur animation-gauche">
-            <div class="box">
+            <img src="./asset/pointant-vers-la-droite.png" alt="" class="icone-pointeur" class="link" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
+            <div class="box" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400">
                 <div class="content">
                     <img src="./asset/profile-pic1.png" alt="">
                     <h2>Aristide SAMBA<br><span>Développeur</span></h2>
@@ -88,14 +88,14 @@
         </section>
         <!-- Deuxième section -->
         <section class="second-section-apropos">
-            <figure class="large-screen">
+            <figure class="large-screen" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400">
                 <figcaption>
-                    <img src="./asset/4421964.jpg" alt="">
+                    <img src="./asset/4421964.jpg" alt="" class="link" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
                 </figcaption>
             </figure>
             <div class="description-second-section">
-                <h3>Mon parcours ///</h3>
-                <p> 
+                <h3 class="link" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400">Mon parcours ///</h3>
+                <p class="link" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400"> 
                     Passionné par les nouvelles technologies depuis mon plus jeune âge, j'ai naturellement orienté mes études vers l'informatique. 
                     Après l'obtention de mon BTS Réseaux et Télécommunications, j'ai eu l'opportunité de travailler au Congo, d'abord en tant qu'Agent distribution IT au sein 
                     d'une compagnie aérienne, puis en tant que professeur de sport et de taekwondo dans une école américaine. 
@@ -106,13 +106,13 @@
         </section>
         <section class="third-section-apropos">
             <div class="description-third-section">
-                <h3>Informations diverses ///</h3>
-                <p> 
+                <h3 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">Informations diverses ///</h3>
+                <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400"> 
                     J'aime beaucoup le cinéma d'action de sciences fiction et fantaisie. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, perferendis hic consequuntur sunt labore placeat blanditiis quidem odit illum atque natus? Nemo fuga quod, excepturi sit delectus ducimus illo expedita?. 
                     <br>je fais beaucoup de sport. Ceinture noire de Taekwondo, je pratique depuis près de 10 ans. je coach également des enfants dans un club à Saint-denis nommé SDMMA.
                 </p>
             </div>
-            <figure class="large-screen2">
+            <figure class="large-screen2" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400">
                 <figcaption>
                     <img src="./asset/martial-art.png" alt="">
                 </figcaption>
@@ -144,8 +144,7 @@
         </div>
     </footer>
     <script src="./app.js"></script>
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <script src="./animation.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./animation.js"></script>
     <script src="./initialisation.js"></script>
 </body>
