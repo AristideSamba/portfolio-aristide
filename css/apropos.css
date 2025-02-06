@@ -227,10 +227,10 @@ footer .menu-item.active {
     .first-section-mespages{
         flex-direction: column;
         align-items: center;
+        margin-top: 10%;
         width: 95%;
-        margin-bottom: 50px;
-        padding-bottom: 10px;
         height: 50%;
+        gap: 80px;
     }
 
     .first-section-mespages h1{
@@ -243,6 +243,10 @@ footer .menu-item.active {
     
     .first-section-mespages figcaption{
         width: 300px;
+    }
+
+    .first-section-mespages figcaption img{
+        z-index: 1;
     }
     /*Icone pointeur*/
 .icone-pointeur{
