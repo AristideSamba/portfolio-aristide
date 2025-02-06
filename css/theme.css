@@ -146,7 +146,7 @@ header .contact-icons-burgermenu{
 }
 .my-title h1{
     position: absolute;
-    top: 28%;
+    top: 20%;
     left: 50%;
     font-family: 'Proxima Nova Rg', serif;
     font-size: 2.5rem;
@@ -156,7 +156,7 @@ header .contact-icons-burgermenu{
 }
 .my-title h2{
     position: absolute;
-    top: 35%;
+    top: 27%;
     left: 50%;
     font-family: 'Proxima Nova Bl', serif;
     font-size: 7rem;
@@ -165,7 +165,7 @@ header .contact-icons-burgermenu{
 .my-title p{
     position: absolute;
     width: 30%;
-    top: 52%;
+    top: 45%;
     left: 50%;
     font-family: 'Proxima Nova Rg', serif;
     font-weight: 500;
@@ -195,7 +195,7 @@ button:hover{
 /*Pop-up Github*/
 .my-title #myButton{
     position: absolute;
-    top: 75%;
+    top: 78%;
     left: 50%;
     padding: 10px;
     cursor: pointer;
