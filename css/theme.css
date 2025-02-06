@@ -451,7 +451,10 @@ footer .navbar a:hover{
         align-items: center;
         gap: 20px;
         overflow: hidden;
-        z-index: 100;
+        z-index: 5;
+    }
+    .link{
+        z-index: 1;
     }
     header .navbar ul{
         width: 100%;
@@ -504,54 +507,52 @@ footer .navbar a:hover{
 }
 /*Ecran de moins de 500px*/
 @media screen and (max-width: 500px){
-    /* The main */ 
-
-    header .navbar{
-        height: 50vh;
-    }
     .navbar ul li a{
         font-size: 1.8rem;
     }
     /*First Section*/
+    header .navbar{
+        height: 50vh;
+    }
     .my-title{
         height: 40vh;
     }
+    .my-title .home-content{
+        left: 40%;
+    }
     
-    .my-title h1{
+    .my-title .home-content h1{
         font-size: 1.7rem;
-        top: 15% ;
-        left: 45%;
+        margin-bottom: 10px;
     }
-    .my-title h2{
-        top: 37% ;
+    .my-title .home-content h1 span{
+        letter-spacing: 2.1rem;
+    }
+    .my-title .home-content h2{
         font-size: 2.5rem;
-        left: 45%;
+        margin-bottom: 10px;
     }
-    .my-title p{
+    .my-title .home-content p{
         display: none;
     }
-    button{
-        top: 58%;
-        left: 45%;
+    .my-title .home-content button{
         font-size: 1.4rem;
+        margin-bottom: 10px;
     }
     /*Pop-up Github*/
-    .my-title #myButton{
-        top: 75%;
-        left: 45%;
-    }
+
     #popup p{
         font-size: 1rem;
     }
     
     #popup {
-        width: 60%;
+        width: 40%;
     }
     .my-title .bulles{
         display: none;
     }
-    .my-title #myButton img{
-        width: 30px;
+    .my-title .home-content #myButton{
+        width: 50px;
     }
     /*Animation des bulles*/
 @keyframes fadeIn {

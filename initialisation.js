@@ -1,1 +1,1 @@
-AOS.init({offset:0});
+AOS.init({offset:2});
