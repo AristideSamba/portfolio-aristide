@@ -1,1 +1,22 @@
 @import url(./apropos.css);
+
+.first-section-mespages button{
+   padding: 10px 25px;
+    color: #3a3a3a;
+    background: transparent;
+    border: 2px solid #3a3a3a;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.7rem;
+    transition: .3s ease-in-out;
+    margin-top: 20px;
+}
+
+.first-section-mespages button:hover{
+    color: #ffff;
+    background-color: #3a3a3a;
+    border: 2px solid var(--hover-color);
+    transition: .3s ease-in-out;
+}
