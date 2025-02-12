@@ -17,7 +17,6 @@ header .menu-item.active {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
-    box-shadow: 0px 2px 0px  rgba(164, 163, 163, 0.5);
 }
 
 .first-section-mespages .description{
@@ -38,7 +37,6 @@ header .menu-item.active {
     font-family: 'Proxima Nova Rg', serif;
     font-size: 1.9rem;
     color: #3a3a3a;
-    text-align: justify;
 }
 
 .first-section-mespages figcaption{
@@ -152,6 +150,10 @@ header .menu-item.active {
 }
 /*Deuxi)me section*/
 .second-section-apropos{
+    background-color: #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(140, 139, 139, 0.5), 3px 3px 5px rgba(0,0,0, 0.2)inset ;
+}
+.second-section-apropos .contenu-apropos{
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -180,17 +182,18 @@ header .menu-item.active {
 }
 .second-section-apropos p{
     font-family: 'Proxima Nova Rg', serif;
-    font-size: 1.9rem;
+    font-size: 2rem;
+    line-height: 1.5;
     color: #3a3a3a;
-    text-align: justify;
 }
 /*Troisième section*/
-.third-section-apropos{
+
+.third-section-apropos .contenu-section-trois{
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2% auto;
+    margin: auto;
     gap: 40px;
     width: 80%;
 }
@@ -212,9 +215,9 @@ header .menu-item.active {
 }
 .third-section-apropos p{
     font-family: 'Proxima Nova Rg', serif;
-    font-size: 1.9rem;
+    font-size: 2rem;
+    line-height: 1.5;
     color: #3a3a3a;
-    text-align: justify;
 }
 
 /*footer*/
@@ -263,7 +266,7 @@ footer .menu-item.active {
         inset: -10px 90px;
     }
     /*Deuxième section*/
-    .second-section-apropos{
+    .second-section-apropos .contenu-apropos{
         flex-direction: column;
         align-items: center;
         gap: 0;
@@ -279,7 +282,7 @@ footer .menu-item.active {
         order: 2;
     }
     /*Troisième section*/
-    .third-section-apropos{
+    .third-section-apropos .contenu-section-trois{
         flex-direction: column;
         align-items: center;
         gap: 0;
