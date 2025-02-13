@@ -1,5 +1,12 @@
 @import url(./apropos.css);
 
+.section-two{
+  margin-top: 0;
+  background-color: #E5E5E5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0px 4px 4px rgba(140, 139, 139, 0.5), 3px 3px 5px rgba(0,0,0, 0.2)inset ;
+}
 .first-section-mespages button{
   padding: 15px 25px;
   color:  #3a3a3a;

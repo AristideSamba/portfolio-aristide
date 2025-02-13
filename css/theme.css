@@ -155,7 +155,7 @@ header .contact-icons-burgermenu{
 }
 .my-title .home-content h1{
     font-family: 'Proxima Nova Rg', serif;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: 900;
     color: var(--header-bgcolor);
     letter-spacing: 1.2rem;
@@ -170,7 +170,7 @@ header .contact-icons-burgermenu{
     font-family: 'Proxima Nova Rg', serif;
     font-weight: 500;
     color: var(--header-bgcolor);
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 20px;
 }
 .my-title .home-content button{
@@ -317,6 +317,13 @@ header .contact-icons-burgermenu{
     align-items: center;
     padding: 0;
     gap: 30px;
+}
+.section-two .apercu-projets a{
+    transition: 0.3s ease-in-out;
+}
+.section-two .apercu-projets a:hover{
+    transform: translateY(-15px);
+    transition: 0.3s ease-in-out;
 }
 .section-two .apercu-projets .contenu-1,
 .section-two .apercu-projets .contenu-2,

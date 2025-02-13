@@ -33,6 +33,9 @@ header .menu-item.active {
     color: var(--hover-color);
     margin-bottom: 10px;
 }
+.first-section-mespages h2 a{
+    text-decoration: underline;
+}
 .first-section-mespages p{
     font-family: 'Proxima Nova Rg', serif;
     font-size: 2.2rem;
@@ -46,14 +49,6 @@ header .menu-item.active {
     width: 100%;
     height: 100%;
     border-radius: 20px;
-}
-/*Icone pointeur*/
-.icone-pointeur{
-    position: absolute;
-    top: 35%;
-    left: 58%;
-    width: 50px;
-    height: 50px;
 }
 /*Box contenant l'image et animation*/
 .first-section-mespages .box{
@@ -70,7 +65,7 @@ header .menu-item.active {
     inset: -10px 130px;
     background: linear-gradient(315deg, #FF4D6B, #299DF2);
     transition: 0.5s;
-    animation: animate 5s linear infinite;
+    animation: animate 12s linear infinite;
 }
 .first-section-mespages .box:hover::before{
     inset: -20px 0px;
@@ -185,11 +180,79 @@ header .menu-item.active {
     line-height: 4rem;
     color: #3a3a3a;
 }
+.second-section-apropos button{
+    padding: 15px 25px;
+    color:  #3a3a3a;
+    background: transparent;
+    border: 2px solid #3a3a3a;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.7rem;
+    transition: .3s ease-in-out;
+    margin-top: 20px;
+}
+.second-section-apropos button:hover{
+    color: #ffff;
+    background-color: #3a3a3a;
+    transition: .3s ease-in-out;
+}
+/*Section Stage*/
+.section-stage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+}
+.section-stage .contenu-section-stage{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 40px;
+    width: 80%;
+}
+.section-stage figcaption{
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.section-stage figcaption img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section-stage h3{
+    font-family: 'Proxima Nova Lt', serif;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.section-stage h4{
+    font-family: 'Proxima Nova Lt', serif;
+    font-size: 2.7rem;
+    font-weight: 100;
+}
+.section-stage a{
+    text-decoration: underline;
+    transition: .3s ease-in-out;
+}
+.section-stage a:hover{
+    color: #888787;
+    transition: .3s ease-in-out;
+}
+.section-stage p{
+    font-family: 'Proxima Nova Rg', serif;
+    font-size: 2rem;
+    color: #3a3a3a;
+}
 /*Troisième section*/
 .third-section-apropos{
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: #E5E5E5;
 }
 
 .third-section-apropos .contenu-section-trois{
@@ -234,9 +297,10 @@ footer .menu-item.active {
         flex-direction: column;
         align-items: center;
         margin-top: 10%;
+        margin-bottom: 50px;
         width: 95%;
         height: 50%;
-        gap: 80px;
+        gap: 40px;
     }
 
     .first-section-mespages h1{
@@ -269,12 +333,19 @@ footer .menu-item.active {
         inset: -10px 90px;
     }
     /*Deuxième section*/
+    .second-section-apropos{
+        height: 1200px;
+        display: block;
+    }
     .second-section-apropos .contenu-apropos{
         flex-direction: column;
         align-items: center;
         gap: 0;
         margin-bottom: 50px;
         padding-top: 60px;
+    }
+    .second-section-apropos button{
+        margin-bottom: 20px;
     }
     .second-section-apropos figcaption{
         width: 300px;
@@ -284,15 +355,39 @@ footer .menu-item.active {
     .large-screen{
         order: 2;
     }
-    /*Troisième section*/
-    .third-section-apropos .contenu-section-trois{
+    /*Section Stage*/
+    .section-stage{
+        height: 1500px;
+        display: block;
+    }
+    .section-stage .contenu-section-stage{
         flex-direction: column;
         align-items: center;
         gap: 0;
+        margin-bottom: 50px;
+        padding-top: 60px;
+    }
+   
+    .section-stage figcaption{
+        width: 300px;
+        margin: 10px auto;
+    }
+   
+    /*Troisième section*/
+    .third-section-apropos{
+        height: 1000px;
+    }
+    .third-section-apropos .contenu-section-trois{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
         margin-bottom: 50px;
     }
     .third-section-apropos figcaption{
         width: 300px;
         margin: 10px auto;
+    }
+    .third-section-apropos .large-screen2{
+        order: 2;
     }
 }
