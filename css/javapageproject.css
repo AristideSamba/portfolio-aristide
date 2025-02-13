@@ -1,0 +1,46 @@
+@import url(./apropos.css);
+
+
+.first-section-mespages a{
+  font-family: 'Proxima Nova Lt', serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+  text-decoration: underline;
+  transition: .3s ease-in-out;
+}
+.first-section-mespages a:hover{
+  color: #888787;
+  transition: .3s ease-in-out;
+}
+
+.section-java{
+  width: 80%;
+  margin: auto;
+}
+.section-java h2{
+  font-family: 'Proxima Nova Lt', serif;
+  font-size: 4rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.section-java img{
+  display: flex;
+  align-items: center;
+  width: 800px;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.section-java img:hover{
+  transform: scale(1.3);
+  transition: .3s ease-in-out;
+}
+.section-java p{
+  font-family: 'Proxima Nova Lt', serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
