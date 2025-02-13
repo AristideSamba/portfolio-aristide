@@ -20,7 +20,7 @@ header .menu-item.active {
 }
 
 .first-section-mespages .description{
-    width: 50%;
+    width: 60%;
 }
 .first-section-mespages h1{
     font-family: 'Proxima Nova Cn Rg', serif;
@@ -38,7 +38,7 @@ header .menu-item.active {
 }
 .first-section-mespages p{
     font-family: 'Proxima Nova Rg', serif;
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: #3a3a3a;
 }
 
