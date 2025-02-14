@@ -146,7 +146,7 @@ header .menu-item.active {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #E5E5E5;
+    background-color: #40668E;
     box-shadow: 0px 4px 4px rgba(140, 139, 139, 0.5), 3px 3px 5px rgba(0,0,0, 0.2)inset ;
 }
 .second-section-apropos .contenu-apropos{
@@ -171,18 +171,19 @@ header .menu-item.active {
     font-size: 4rem;
     margin-bottom: 10px;
     font-weight: 300;
+    color: #ffff;
 }
 .second-section-apropos p{
     font-family: 'Proxima Nova Rg', serif;
     font-size: 2rem;
     line-height: 4rem;
-    color: #3a3a3a;
+    color: #ffff;
 }
 .second-section-apropos button{
     padding: 15px 25px;
-    color:  #3a3a3a;
+    color: #ffff;
     background: transparent;
-    border: 2px solid #3a3a3a;
+    border: 2px solid #ffff;
     border-radius: 30px;
     outline: none;
     cursor: pointer;
@@ -192,8 +193,8 @@ header .menu-item.active {
     margin-top: 20px;
 }
 .second-section-apropos button:hover{
-    color: #ffff;
-    background-color: #3a3a3a;
+    color: #40668E;
+    background-color: #ffff;
     transition: .3s ease-in-out;
 }
 /*Section Stage*/
@@ -201,7 +202,7 @@ header .menu-item.active {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #ffff;
+    background-color: #E5E5E5;
 }
 .section-stage .contenu-section-stage{
     position: relative;
@@ -250,7 +251,7 @@ header .menu-item.active {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #E5E5E5;
+    background-color: #40668E;
 }
 
 .third-section-apropos .contenu-section-trois{
