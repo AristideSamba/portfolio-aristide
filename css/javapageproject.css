@@ -20,7 +20,7 @@
 }
 .section-java h2{
   font-family: 'Proxima Nova Lt', serif;
-  font-size: 4rem;
+  font-size: 2.6rem;
   margin-bottom: 10px;
   font-weight: 300;
 }
@@ -32,9 +32,10 @@
   cursor: pointer;
   margin: auto;
   margin-bottom: 70px;
+  border-radius: 10px;
 }
 .section-java img:hover{
-  transform: scale(1.3);
+  transform: scale(1.2);
   transition: .3s ease-in-out;
 }
 .section-java p{
