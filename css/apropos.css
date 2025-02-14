@@ -277,12 +277,13 @@ header .menu-item.active {
     font-size: 4rem;
     margin-bottom: 10px;
     font-weight: 300;
+    color: #ffff;
 }
 .third-section-apropos p{
     font-family: 'Proxima Nova Rg', serif;
     font-size: 2rem;
     line-height: 4rem;
-    color: #3a3a3a;
+    color: #ffff;
 }
 
 /*footer*/
@@ -297,7 +298,7 @@ footer .menu-item.active {
         align-items: center;
         margin-top: 10%;
         margin-bottom: 50px;
-        width: 95%;
+        width: 96%;
         height: 50%;
         gap: 40px;
     }
@@ -317,11 +318,7 @@ footer .menu-item.active {
     .first-section-mespages figcaption img{
         z-index: 1;
     }
-    /*Icone pointeur*/
-.icone-pointeur{
-    top: 65%;
-    left: 1%;
-}
+
     /*Box contenant l'image et animation*/
     .first-section-mespages .box{
         width: 300px;
@@ -333,7 +330,7 @@ footer .menu-item.active {
     }
     /*Deuxième section*/
     .second-section-apropos{
-        height: 1200px;
+        height: 1100px;
         display: block;
     }
     .second-section-apropos .contenu-apropos{
@@ -354,9 +351,15 @@ footer .menu-item.active {
     .large-screen{
         order: 2;
     }
+    .second-section-apropos h3{
+        font-size: 2rem;
+    }
+    .second-section-apropos p{
+        font-size: 1.5rem;
+    }
     /*Section Stage*/
     .section-stage{
-        height: 1500px;
+        height: 1000px;
         display: block;
     }
     .section-stage .contenu-section-stage{
@@ -371,10 +374,20 @@ footer .menu-item.active {
         width: 300px;
         margin: 10px auto;
     }
+    .section-stage h3{
+        font-size: 2rem;
+    }
+    .section-stage h4{
+        font-size: 1.8rem;
+    }
+    .section-stage p{
+        font-size: 1.5rem;
+    }
    
     /*Troisième section*/
     .third-section-apropos{
-        height: 1000px;
+        height: 800px;
+        align-items: start;
     }
     .third-section-apropos .contenu-section-trois{
         flex-direction: column;
@@ -388,5 +401,11 @@ footer .menu-item.active {
     }
     .third-section-apropos .large-screen2{
         order: 2;
+    }
+    .third-section-apropos h3{
+        font-size: 2rem;
+    }
+    .third-section-apropos p{
+        font-size: 1.5rem;
     }
 }
