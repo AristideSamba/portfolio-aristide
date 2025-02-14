@@ -143,7 +143,6 @@ header .menu-item.active {
 }
 /*Deuxi)me section*/
 .second-section-apropos{
-    height: 100vh;
     display: flex;
     align-items: center;
     background-color: #40668E;
@@ -199,7 +198,6 @@ header .menu-item.active {
 }
 /*Section Stage*/
 .section-stage{
-    height: 100vh;
     display: flex;
     align-items: center;
     background-color: #E5E5E5;
@@ -244,11 +242,11 @@ header .menu-item.active {
 .section-stage p{
     font-family: 'Proxima Nova Rg', serif;
     font-size: 2rem;
+    line-height: 4rem;
     color: #3a3a3a;
 }
 /*Troisième section*/
 .third-section-apropos{
-    height: 100vh;
     display: flex;
     align-items: center;
     background-color: #40668E;
@@ -330,8 +328,8 @@ footer .menu-item.active {
     }
     /*Deuxième section*/
     .second-section-apropos{
-        height: 1100px;
         display: block;
+        padding-bottom: 30px;
     }
     .second-section-apropos .contenu-apropos{
         flex-direction: column;
@@ -352,14 +350,13 @@ footer .menu-item.active {
         order: 2;
     }
     .second-section-apropos h3{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .second-section-apropos p{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     /*Section Stage*/
     .section-stage{
-        height: 1000px;
         display: block;
     }
     .section-stage .contenu-section-stage{
@@ -375,19 +372,20 @@ footer .menu-item.active {
         margin: 10px auto;
     }
     .section-stage h3{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .section-stage h4{
-        font-size: 1.8rem;
+        font-size: 1.9rem;
     }
     .section-stage p{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
    
     /*Troisième section*/
     .third-section-apropos{
-        height: 800px;
-        align-items: start;
+        display: block;
+        padding-top: 50px;
+        padding-bottom: 30px;
     }
     .third-section-apropos .contenu-section-trois{
         flex-direction: column;
@@ -403,9 +401,9 @@ footer .menu-item.active {
         order: 2;
     }
     .third-section-apropos h3{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .third-section-apropos p{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 }
