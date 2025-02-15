@@ -31,3 +31,9 @@ button.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
     popup.classList.add('hidden');
 });
+
+//Fonction pour ouvrir mon CV
+function ouvrirPDF(url) {
+  window.open(url, '_blank');
+  return false;
+}
