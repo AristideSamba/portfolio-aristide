@@ -82,6 +82,11 @@
   font-weight: 200;
 }
 
+/*footer*/
+footer{
+  background-color: #E5E5E5;
+}
+
 @media screen and (max-width: 500px){
   .second-section{
     height: 1200px;

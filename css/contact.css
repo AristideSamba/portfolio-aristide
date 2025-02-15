@@ -52,6 +52,10 @@
     transition: ease-in-out .4s;
 }
 
+/*footer*/
+footer{
+    background-color: #E5E5E5;
+  }
 
 /*Ecran de moins de 500px*/
 @media screen and (max-width: 500px){
