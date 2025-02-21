@@ -10,7 +10,7 @@
   margin-top: 40px;
   margin-bottom: 600px;
   position: relative;
-  background-image: linear-gradient(to bottom, var(--myblue-color), #07145f);
+  background-image: linear-gradient(to bottom, var(--header-bgcolor), var(--hover-color));
 }
 
 .second-section .description{
@@ -32,7 +32,7 @@
   left: 10%;
   background-color: #fff;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2px 1fr;
   width: 80%;
   height: 700px;
   margin: auto;
@@ -48,7 +48,13 @@
   flex-direction: column;
   align-items: center;
 }
-
+/*Ligne verticale qui sépare les deux div langues*/
+.ligne-verticale {
+  width: 2px; 
+  height: 700px; 
+  background-color: #d7d4d4; 
+  display: inline-block;
+}
 .second-section .contenu-lang p{
   padding-top: 30px;
   color: #000;
@@ -97,5 +103,8 @@ footer{
     align-items: center;
     top: 15%;
     height: 1550px;
+  }
+  .ligne-verticale {
+    display: none;
   }
 }
