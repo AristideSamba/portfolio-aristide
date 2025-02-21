@@ -206,10 +206,21 @@ header .contact-icons-burgermenu{
 .hidden {
     display: none;
 }
+
+#popup img{
+    border-radius: 50%;
+    display: block;
+  margin: 0 auto;
+}
+#popup h2{
+    color: var(--white-color);
+    text-align: center; 
+}
 #popup p{
     font-size: 1.6rem;
     font-weight: 100;
     color: var(--white-color);
+    text-align: center; 
 }
 
 #popup {
@@ -637,6 +648,9 @@ footer .navbar a:hover{
  }
  .section-two h3{
     font-size: 2rem;
+ }
+ .section-two .apercu-projets a:hover::after{
+    display: none;
  }
 
  /*Footer*/
