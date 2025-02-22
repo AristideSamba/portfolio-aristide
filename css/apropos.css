@@ -337,7 +337,8 @@ footer .menu-item.active {
     /*Deuxième section*/
     .second-section-apropos{
         display: block;
-        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .second-section-apropos .contenu-apropos{
         flex-direction: column;
@@ -366,6 +367,8 @@ footer .menu-item.active {
     /*Section Stage*/
     .section-stage{
         display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .section-stage .contenu-section-stage{
         flex-direction: column;
@@ -392,8 +395,8 @@ footer .menu-item.active {
     /*Troisième section*/
     .third-section-apropos{
         display: block;
-        padding-top: 50px;
-        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .third-section-apropos .contenu-section-trois{
         flex-direction: column;

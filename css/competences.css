@@ -8,7 +8,7 @@
   width: 100%;
   height: 400px;
   margin-top: 40px;
-  margin-bottom: 600px;
+  margin-bottom: 500px;
   position: relative;
   background-image: linear-gradient(to bottom, var(--header-bgcolor), var(--hover-color));
 }
@@ -88,6 +88,18 @@
   font-weight: 200;
 }
 
+/*Section pour les images */
+.img-competences{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.img-competences img{
+  width: 120px;
+}
+
 /*footer*/
 footer{
   background-color: #E5E5E5;
@@ -106,5 +118,17 @@ footer{
   }
   .ligne-verticale {
     display: none;
+  }
+  /*Section pour les images */
+  .img-competences{
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .img-competences img{
+    width: 100px;
   }
 }
