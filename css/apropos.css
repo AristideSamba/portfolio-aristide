@@ -147,7 +147,10 @@ header .menu-item.active {
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
-    background-color: #40668E;
+    background-image: url(../asset/fond1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .second-section-apropos .contenu-apropos{
     position: relative;
@@ -204,6 +207,10 @@ header .menu-item.active {
     padding-bottom: 30px;
     align-items: center;
     background-color: #E5E5E5;
+    background-image: url(../asset/fond2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .section-stage .contenu-section-stage{
     position: relative;
@@ -216,11 +223,9 @@ header .menu-item.active {
 .section-stage figcaption{
     width: 500px;
     margin-top: 30px;
-    margin-right: 30px;
 }
 .section-stage figcaption img{
     width: 100%;
-    border-radius: 10px;
 }
 
 .section-stage h3{
@@ -254,7 +259,10 @@ header .menu-item.active {
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
-    background-color: #40668E;
+    background-image: url(../asset/fond1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .third-section-apropos .contenu-section-trois{
