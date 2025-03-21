@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/android-chrome-512x512.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/javapageproject.css">
+    <link href="./asset/package/style.css" rel="stylesheet">
+    <title>Aristide SAMBA</title>
+</head>
+<body>
+
+    <!-- Header de ma page -->
+    <header id="retour-haut" class="link" data-aos="fade-down" data-aos-duration="800" data-aos-delay="100">
+        <figure class="logo">
+            <figcaption>
+                <a href="./index.html">
+                    <img src="./asset/Aris-logo-white.png" alt="Logo de mon site">
+                </a>
+            </figcaption>
+        </figure>
+        <!--Navbar-->
+        <nav class="navbar" id="menuList">
+            <ul>
+                <li><a href="./apropos.html">A propos</a></li>
+                <li class="separateur"></li>
+                <li><a href="./competence.html">Compétences</a></li>
+                <li class="separateur"></li>
+                <li><a href="./projet.html" class="menu-item active">Projets</a></li>
+                <li class="separateur"></li>
+                <li><a href="./contacts.html">Contacts</a></li>
+                <li class="last-separateur"></li> <!--Dernier separateur visible uniquement sur mobile-->  
+            </ul>
+            <!--Icone des contacts-->
+            <div class="contact-icons-burgermenu">
+                <a href="https://www.linkedin.com/in/romeo-aristide-samba-louzey2502" target="_blank">
+                    <img src="./asset/linkedin.png" alt="logo linkedin">
+                </a>
+                <a href="https://www.facebook.com/romarissamba" target="_blank">
+                    <img src="./asset/facebook.png" alt="logo facbook">
+                </a>
+                <a href="https://www.instagram.com/romarissamba/profilecard/?igsh=Yzc0bHJuZzN1MWQ2" target="_blank">
+                    <img src="./asset/logo-instagram.png" alt="Icone instagram">
+                </a>
+            </div>
+        </nav>
+        <!--Icone des contacts-->
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/romeo-aristide-samba-louzey2502" target="_blank">
+                <img src="./asset/linkedin.png" alt="logo linkedin">
+            </a>
+            <a href="https://www.facebook.com/romarissamba" target="_blank">
+                <img src="./asset/facebook.png" alt="logo facbook">
+            </a>
+            <a href="https://www.instagram.com/romarissamba/profilecard/?igsh=Yzc0bHJuZzN1MWQ2" target="_blank">
+                <img src="./asset/logo-instagram.png" alt="Icone instagram">
+            </a>
+        </div>
+        <!-- Burger Menu -->
+        <div class="menu" id="menu" >
+            <div onclick="toggleMenu()">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mon main -->
+    <main>
+          <!-- Première section A propos -->
+    <section class="first-section-mespages">
+        <div class="description">
+            <h1 class="link" data-aos="fade-right" data-aos-duration="600" data-aos-delay="1000">Projet Pro</h1>
+            <h2 class="link" data-aos="fade-right" data-aos-duration="600" data-aos-delay="1000">Maison des ligues</h2>
+            <p class="link" data-aos="fade-right" data-aos-duration="600" data-aos-delay="1000">Maison de Ligue est une application web professionnelle conçue pour faciliter la gestion des employés d'une ligue. Elle offre une interface permettant aux administrateurs de gérer efficacement les informations relatives aux employés, telles que leurs informations personnelles, leurs rôles, etc.
+                <br>C'est un projet réalisé en collaboration avec mon collegue <a href="https://stephanemdz.github.io/portfolio_mdz/"><strong>Stephane MODZINU</strong></a>
+                <br><br><a href="https://github.com/Stephanemdz/personnel" target="_blank">Voir le dépôt Git hub du projet</a>
+            </p>
+        </div>
+        <figure class="link" data-aos="fade-left" data-aos-duration="600" data-aos-delay="1000">
+            <figcaption>
+                <img src="./asset/java.png" alt="">
+            </figcaption>
+        </figure>
+    </section>
+    <!-- Deuxieme section -->
+    <section class="section-java">
+        <h2>Arbre heuristique</h2>
+        <p>C'est la première étape par laquelle je suis passé pour le développment de mon projet. Voici une représentation de celui-ci. <br>
+            Il détail et présente tous les liens entre les différents menus et options du projet.
+        </p>
+        <img src="./asset/Arbre-heuristique-Java.png" alt="">
+        <h2>MCD du projet</h2>
+        <p>J'ai ensuite procédé à la conception du Modèle Conceptuel de donnée. Ci-dessous une image du MCD </p>
+        <img src="./asset/MCD-JAVA.jpg" alt="">
+        <h2>Captures de de l'application</h2>
+        <p>Ci-dessous quelques captures d'écrans de mon application en ligne de commandes.</p>
+        <div class="captures">
+            <img src="./asset/Capture-app-personnel1.png" alt="">
+            <img src="asset/capture-app-personnel2.png" alt="">
+        </div>
+    </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <figure>
+            <figcaption>
+                <a href="#retour-haut">
+                    <img src="./asset/fleches-vers-le-haut.png" alt="Flèche vers le haut">
+                </a>
+            </figcaption>
+        </figure>
+        <div class="footer-contenu">
+            <p> - &copy; Aristide SAMBA Tous droits réservés - 2025</p>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="./apropos.html">A propos</a></li>
+                    <li class="separateur"></li>
+                    <li><a href="./competence.html">Compétences</a></li>
+                    <li class="separateur"></li>
+                    <li><a href="./projet.html" class="menu-item active">Projets</a></li>
+                    <li class="separateur"></li>
+                    <li><a href="./contacts.html">Contacts</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!-- lien du fichier app.js -->
+    <script src="./app.js"></script> 
+    <script src="./fetch.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./animation.js"></script>
+    <script src="./initialisation.js"></script>
+</body>
+</html>
