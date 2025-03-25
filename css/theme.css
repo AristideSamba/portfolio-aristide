@@ -176,10 +176,10 @@ header .contact-icons-burgermenu{
 }
 .my-title .home-content button{
     padding: 10px 25px;
-    color: var(--header-bgcolor);
-    background: transparent;
+    color: #e3e3e3;
+    background: #3a3a3a;
     border: 2px solid #3a3a3a;
-    border-radius: 20px;
+    border-radius: 10px;
     outline: none;
     cursor: pointer;
     font-weight: 700;
