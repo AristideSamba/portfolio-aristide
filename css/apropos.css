@@ -299,7 +299,7 @@ header .menu-item.active {
 
 /*footer*/
 footer{
-    background-color: #40668E;
+    background-color: #3C5E77;
 }
 /*Class active pour indiquer le dans lequel menu on se trouve pour la navbar du footer*/
 footer .menu-item.active {
