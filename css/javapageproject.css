@@ -19,10 +19,10 @@
   margin: auto;
 }
 .doc h2{
-  font-family: 'Proxima Nova Lt', serif;
-  font-size: 2.6rem;
-  margin-bottom: 10px;
-  font-weight: 300;
+  font-family: 'Proxima Nova Rg', serif;
+  font-weight: 400;
+  color: var(--hover-color);
+  padding-bottom: 1rem;
 }
 .doc a{
   display: flex;
@@ -82,6 +82,7 @@
 
 .section-java .doc a{
   display: flex;
+  
 }
 .section-java .doc a img{
   width: 30px;

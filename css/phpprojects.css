@@ -1,0 +1,15 @@
+@import url(javapageproject.css);
+
+
+.first-section-mespages{
+  height: 60vh;
+}
+
+.doc a{
+  color: var(--myblue-color);
+  margin-bottom: 1rem;
+}
+
+.doc a:hover{
+  text-decoration: underline;
+}
