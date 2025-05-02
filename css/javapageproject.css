@@ -13,10 +13,26 @@
   color: #888787;
   transition: .3s ease-in-out;
 }
-
+.first-section-mespages button{
+  padding: 10px;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  background-color: #3a3a3a;
+  color: #ffff;
+  border: none;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+.first-section-mespages button:hover{
+  background-color: #EA2D2E;
+  color: #ffff;
+  transition: .3s ease-in-out;
+  border: none;
+}
 .doc{
   width: 80%;
   margin: auto;
+  padding-top: 5rem;
 }
 .doc h2{
   font-family: 'Proxima Nova Rg', serif;
