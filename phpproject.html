@@ -92,8 +92,73 @@
     <!-- Deuxieme section -->
     <section class="doc">
         <h2>Documentation</h2>
-            <p>Lien vers la documentation complète du projet:</p>
-            <a href="https://hackmd.io/@CCbwLT4ySZGuwreHhlnlNA/B1uKynQAkl" target="_blank">https://hackmd.io/@CCbwLT4ySZGuwreHhlnlNA/B1uKynQAkl</a>
+        <p>Dans cette section, vous trouverez la documentation de mon projet. Elle est divisée en deux parties : la documentation technique et la documentation utilisateur.</p>
+        <h3>Documentation technique</h3>
+        <p>La documentation technique est destinée aux développeurs et aux personnes intéressées par la structure et le fonctionnement du projet. Elle comprend des informations sur l'architecture du code, les technologies utilisées, les dépendances, ainsi que des instructions pour la configuration et le déploiement de l'application.</p>
+        <p><strong>Technologies utilisées :</strong> PHP (Laravel), JavaScript, MySQL, Composer, npm</p>
+
+    <h3>Structure du projet</h3>
+    <ul>
+        <li><strong>Modèles :</strong> <code>User.php</code>, <code>Employee.php</code>, <code>AuthLog.php</code></li>
+        <li><strong>Contrôleurs :</strong> <code>AuthManager.php</code>, <code>UserController.php</code>, <code>HomeController.php</code></li>
+        <li><strong>Listeners :</strong> <code>LogAuthenticationEvents.php</code></li>
+        <li><strong>Migrations :</strong> <code>create_auth_logs_table.php</code>, <code>create_employees_table.php</code></li>
+        <li><strong>Seeders :</strong> <code>AdminUserSeeder.php</code></li>
+    </ul>
+
+    <h4>Fonctionnalités principales</h4>
+    <ul>
+        <li><strong>Gestion des employés :</strong> Création, modification, suppression, recherche.</li>
+        <li><strong>Journalisation des authentifications :</strong> Connexion, déconnexion, échec de connexion.</li>
+    </ul>
+
+    <h4>Routes principales</h4>
+    <ul>
+        <li><code>/login</code> : Page de connexion.</li>
+        <li><code>/home</code> : Page d'accueil.</li>
+        <li><code>/collaborateurs</code> : Liste des collaborateurs.</li>
+        <li><code>/ajoutCollaborateurs</code> : Formulaire d'ajout de collaborateurs.</li>
+    </ul>
+    <br>
+    <h4>Installation</h4>
+    <br>
+    <ol>
+        <li>Cloner le projet : <code>git clone https://github.com/AristideSamba/maison-de-ligues/tree/laravel</code></li>
+        <li>Installer les dépendances : <code>composer install</code>, <code>npm install</code></li>
+        <li>Configurer le fichier <code>.env</code>.</li>
+        <li>Exécuter les migrations et seeders : <code>php artisan migrate --seed</code></li>
+    </ol>
+    <br>
+    <h4>Journalisation des authentifications</h4>
+    <p>Les événements de connexion, déconnexion et échec de connexion sont enregistrés dans la table <code>auth_logs</code>.</p>
+      
+    <br>
+    <h3>Documentation utilisateur</h3>
+        <p>La documentation utilisateur est destinée aux utilisateurs finaux de l'application. Elle fournit des instructions sur la façon d'utiliser les fonctionnalités de l'application, ainsi que des conseils pour résoudre les problèmes courants.</p>
+            <h3>Fonctionnalités principales</h3>
+    <ul>
+        <li><strong>Connexion :</strong> Accédez à votre compte via la page de connexion.</li>
+        <li><strong>Gestion des employés :</strong> Ajoutez, modifiez, recherchez ou supprimez des collaborateurs.</li>
+        <li><strong>Profil :</strong> Modifiez vos informations personnelles.</li>
+        <li><strong>Journalisation :</strong> Suivez les connexions et déconnexions des utilisateurs.</li>
+    </ul>
+
+    <h3>Navigation</h3>
+    <ul>
+        <li><strong>Page de connexion :</strong> Accessible via <code>/login</code>.</li>
+        <li><strong>Page d'accueil :</strong> Accessible après connexion via <code>/home</code>.</li>
+        <li><strong>Collaborateurs :</strong> Liste des employés via <code>/collaborateurs</code>.</li>
+        <li><strong>Ajout de collaborateurs :</strong> Formulaire via <code>/ajoutCollaborateurs</code>.</li>
+    </ul>
+
+    <h3>Instructions</h3>
+    <ol>
+        <li>Connectez-vous avec vos identifiants.</li>
+        <li>Utilisez le menu pour accéder aux différentes sections.</li>
+        <li>Ajoutez ou modifiez des collaborateurs selon vos besoins.</li>
+        <li>Déconnectez-vous via le bouton de déconnexion.</li>
+    </ol> 
+        
             <p>Ci-dessous quelques document utiles liés à mon projet</p>
             <a href="asset/Situation_professionnelle_E5_2025_SLAM(PHP).pdf" onclick="return ouvrirPDF(this.href);">
                 <img src="asset/pdf-icone.png" alt="Icône PDF" width="32" height="32">
